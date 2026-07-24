@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+from services.llm import generate_response
 from openai import OpenAI
 
 load_dotenv()
