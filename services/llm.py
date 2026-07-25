@@ -19,7 +19,12 @@ def generate_response(prompt):
                 "role": "user",
                 "content": prompt
             }
+ streamlit-site
         ]
+
+        ],
+        temperature=0.7
+ main
     )
 
     return response.choices[0].message.content
