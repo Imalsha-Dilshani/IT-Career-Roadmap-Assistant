@@ -5,14 +5,18 @@ from openai import OpenAI
 
 
 load_dotenv()
+ streamlit-site
 
 
+ main
 api_key = os.getenv("OPENROUTER_API_KEY")
 
 if not api_key:
     api_key = st.secrets["OPENROUTER_API_KEY"]
 
+ streamlit-site
 
+ main
 client = OpenAI(
     api_key=api_key,
     base_url="https://openrouter.ai/api/v1"
