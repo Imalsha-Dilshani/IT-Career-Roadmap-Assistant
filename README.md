@@ -487,7 +487,7 @@ Changes were merged through Pull Requests.
 
 ---
 
-# 📝 Commit Convention
+#  Commit Convention
 
 Semantic commit messages were used:
 
