@@ -1,5 +1,6 @@
 import streamlit as st
 from services.llm import generate_response
+from services.router import classify_intent
 
 st.title("IT Career Roadmap Assistant")
 
