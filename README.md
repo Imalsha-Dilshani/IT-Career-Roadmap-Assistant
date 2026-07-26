@@ -394,7 +394,7 @@ Create:
 Add:
 
 ```toml
-OPENROUTER_API_KEY="your_api_key"
+OPENROUTER_API_KEY="API keys are Streamlit Secrets."
 ```
 
 API keys are never stored in source code.
@@ -517,7 +517,7 @@ refactor: improve code structure
 
 ---
 
-#  Author
+# Author
 
 **Imalsha Dilshani**
 
